@@ -2,6 +2,12 @@ Twilio + Cypress
 --
 > Get verification SMS and send it via Cypress automation framework
 
+
+#### To make it work don't forget to replace accountSid, authToken and email, pass from github account
+
+-----
+
+
 ```js
 const accountSid = 'AC793683c4982a14f01714321bd3f90ca7';
 const authToken = '819068e54369ac58bb8aad976fa517bc';
