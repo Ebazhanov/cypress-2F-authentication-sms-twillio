@@ -1,0 +1,11 @@
+{
+  "name": "sms-twillio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ebazhanov/sms-twillio.git",
+  "author": "ebazhanov <evg.bazhanov@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
