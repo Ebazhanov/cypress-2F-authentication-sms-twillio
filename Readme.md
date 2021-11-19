@@ -11,12 +11,14 @@ Twilio + Cypress
 ```js
 const accountSid = 'AC793683c4982a14f01714321bd3f90ca7';
 const authToken = '819068e54369ac58bb8aad976fa517bc';
+const githubEmail = 'your_github_email'
+const githubPassword = 'your_github_password'
 
 describe('Login with github credentials', () => {
     beforeEach(()=>{
         cy.visit('https://github.com/login');
-        cy.get('#login_field').type('your_github_email');
-        cy.get('#password').type('your_github_password');
+        cy.get('#login_field').type(githubEmail);
+        cy.get('#password').type(githubPassword);
         cy.get('input[type="submit"]').click()
     })
     it('Get SMS and apply it in 2FA form', () => {
