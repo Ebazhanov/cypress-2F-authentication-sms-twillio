@@ -40,3 +40,7 @@ describe('Login with github credentials', () => {
     });
 });
 ```
+
+## TODO 
+- try https://mailosaur.com/docs/frameworks-and-tools/cypress/
+- compare [twillio](https://www.twilio.com/docs/verify/quickstarts/node-express) vs mailosaur
